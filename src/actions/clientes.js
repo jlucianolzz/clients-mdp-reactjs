@@ -61,6 +61,7 @@ export const clienteStartResumenLoading = () => {
     return async (dispatch) => {
         try {
             const resp = await fetchSinToken("clientes/promedioEdad");
+
             const { data, message } = await resp.json();
             if (message.iCod === 200)
                 dispatch(

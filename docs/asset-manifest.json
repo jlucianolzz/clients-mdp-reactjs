@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f28bb66.css",
-    "main.js": "/static/js/main.733f23ed.js",
-    "static/js/27.1a657bbb.chunk.js": "/static/js/27.1a657bbb.chunk.js",
-    "index.html": "/index.html"
+    "main.css": "/clients-mdp-reactjs/static/css/main.8f28bb66.css",
+    "main.js": "/clients-mdp-reactjs/static/js/main.f87f6c42.js",
+    "static/js/27.1a657bbb.chunk.js": "/clients-mdp-reactjs/static/js/27.1a657bbb.chunk.js",
+    "index.html": "/clients-mdp-reactjs/index.html"
   },
   "entrypoints": [
     "static/css/main.8f28bb66.css",
-    "static/js/main.733f23ed.js"
+    "static/js/main.f87f6c42.js"
   ]
 }

@@ -1,6 +1,6 @@
 import Modal from "react-modal/lib/components/Modal";
 import moment from "moment";
-import Swal from "sweetalert2";
+// import Swal from "sweetalert2";
 import { useDispatch, useSelector } from "react-redux";
 
 import { uiCloseModal } from "../../actions/ui";

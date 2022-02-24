@@ -1,7 +1,7 @@
 {
     "name": "clients-mdp-reactjs",
     "version": "0.1.0",
-    "homepage": "https://jlucianolzz.github.io/clients-mdp-reactjs",
+    "homepage": "https://jlucianolzz.github.io/clients-mdp-reactjs/",
     "private": true,
     "dependencies": {
         "@headlessui/react": "^1.5.0",
