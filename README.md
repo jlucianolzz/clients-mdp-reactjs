@@ -1,4 +1,4 @@
-# Backend to management clients
+# Frontend to management clients
 
 In this project, we will be using React.js as the frontend and Redux.
 
