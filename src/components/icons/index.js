@@ -1,0 +1,8 @@
+export { ButtonLeft } from "./ButtonLeft"
+export { Excel } from "./Excel"
+export { Handshake } from "./Handshake"
+export { House } from "./House"
+export { Pencil } from "./Pencil"
+export { Toys } from "./Toys"
+export { Trash } from "./Trash"
+export { Clip } from "./Clip"
