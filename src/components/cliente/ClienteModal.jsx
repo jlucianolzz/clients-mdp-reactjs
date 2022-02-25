@@ -1,6 +1,6 @@
 import Modal from "react-modal/lib/components/Modal";
 import moment from "moment";
-// import Swal from "sweetalert2";
+import Swal from "sweetalert2";
 import { useDispatch, useSelector } from "react-redux";
 
 import { uiCloseModal } from "../../actions/ui";
@@ -50,14 +50,15 @@ export const ClienteModal = () => {
                     <Formik
                         initialValues={initCliente}
                         onSubmit={(values) => {
-                            // const { dFecNacimiento } = values;
-                            // const momentNacimiento = moment(dFecNacimiento);
-                            // if (momentStart.isSameOrAfter(momentEnd))
-                            //     return Swal.fire(
-                            //         "Error",
-                            //         "La fecha de inicio debe ser menor a la fecha de fin",
-                            //         "error"
-                            //     );
+                            const { dFecNacimiento } = values;
+                            const momentNacimiento = moment(dFecNacimiento);
+                            const currentDate = moment();
+                            if (momentNacimiento.diff(currentDate) < 0)
+                                return Swal.fire(
+                                    "Error",
+                                    "La fecha de nacimiento no puede ser mayor a la fecha actual",
+                                    "error"
+                                );
                             dispatch(clienteStartAddNew(values));
                             closeModal();
                         }}
